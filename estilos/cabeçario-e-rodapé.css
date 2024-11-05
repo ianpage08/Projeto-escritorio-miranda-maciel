@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+
+/*Cores
+azul escuro:#002954
+amarelo queimado:#9C8051
+amarelo:#DBA13B
+azul mais claro:#516886
+marrom eu acho :#5C5447*/
+}
+body {
+    background-color: rgb(255, 255, 255);
+    min-width: -100vw;
+    min-height: -100vh;
+}
+
+header {
+    background-color: #002954;
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+header > div#logo1 > img {
+    width: 95px;
+    height: 80px;
+    border: 2px dotted black; 
+    align-items: flex-start;
+    padding: 10px;
+
+}
+header > nav {
+    border: 2px dotted black; 
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 93vw;
+    
+    
+}
+header > nav > a {
+    
+    padding: 10px;
+    text-decoration: none;
+    color: #DBA13B;
+    
+}
+header > nav > a:hover {
+    background-color:#516886 ;
+    border-radius: 0px 15px;
+    transition: 0.5s;
+}  
+
+footer {
+    background-color: #002954;
+    display: flex;
+    flex-flow: row nowrap;
+    
+    
+}
+footer >div > img {
+    border: 2px dotted red ;
+
+}
+footer > div#loca {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 92vw;
+    justify-content: space-around;
+    align-self: center;
+    border: 2px dotted red ;
+}
+
+
+footer > div#loca > p {
+
+    color: #DBA13B;
+    padding: 10px;
+    
+}
