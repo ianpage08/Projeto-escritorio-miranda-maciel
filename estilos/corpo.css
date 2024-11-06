@@ -6,9 +6,36 @@ main {
     
 
 }
+hr#linha {
+    border-color: #CCB474;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+hr#lin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    border-color: #CCB474;
+}
+img#whats {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    z-index: 9999;
+    box-shadow: 2px 2px 3px #999;
+
+}
 section#logo  {
-    background-image: url(../imagens/direito-52a99f45aaaa294d5b73dbc2c584313e.jpg);
-    min-width: -100vw;
+    background-image: url(../imagens/direito1.jpg);
+    
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,20 +43,23 @@ section#logo  {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
     
 }
 section#logo > img {
-    background-color: #00295450;
+    background-color: #00295400;
     width: 400px;
     height: 400px;
     border-radius: 10px;
+    display: block;
+    
 
 }
 
 main > section#boasvindas {
     display: flex;
     flex-flow: row wrap;
-    border: 2px dotted black;
+    
     justify-items: center;
     align-self: center;
     justify-content: space-around;
@@ -40,7 +70,7 @@ main > section#boasvindas {
 }
 section#boasvindas > div#cboasvindas  {
     width: 40%;
-    text-align: justify;
+    text-align: left;
     align-self: center;
     
 
@@ -48,22 +78,35 @@ section#boasvindas > div#cboasvindas  {
 
 }
 section#boasvindas > div > img {
-    width: 350px;
+    width: 500px;
     height: 400px;
-    border-radius: 40px 5px 50px 5px;
+    border-radius: 25px 5px 5px 25px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.63);
+    
+
 }
 section#boasvindas > div#cboasvindas{
     display: flex;
     flex-flow: row wrap;
-    border: 2px dotted black;
+    
     justify-content: center;
     width: 60%;
 }
 section#boasvindas > div#cboasvindas > p {
-    padding: 15px;
+    padding: 10px;
     width: 500px;
-    text-indent: 20px;
+    
     font-size: 16px;
+    margin: 20px;
+    font-size: 1.1em;
+    
+}
+a#whatsa {
+    font-size: 1.3em;
+    background-color: #2bc442;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
 }
 main > section#areasdeatuaçao {
     text-align: center;
@@ -71,6 +114,13 @@ main > section#areasdeatuaçao {
     
     
     
+}
+main > section#areasdeatuaçao > h2 {
+    font-weight: lighter;
+
+}
+main > section#areasdeatuaçao > h3 {
+    font-size: 2em;
 }
 main > section#areasdeatuaçao > div.atu {
     padding: 20px;
@@ -81,7 +131,6 @@ main > section#areasdeatuaçao > div.atu {
 }
 main > section#areasdeatuaçao > div.atu > div.at {
     background-image: url(../imagens/fundo-areas-de\ -atuação.png);
-    
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:30px 0px 30px 0px ;
@@ -90,60 +139,129 @@ main > section#areasdeatuaçao > div.atu > div.at {
     height: 150px;
     align-content: center;
     text-align: center;
+    box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.315);
     
     
+}
+section#diferencial {
+    background-image: linear-gradient(to bottom,#393939, #2D2D2D);
+    margin-left: -10px;
+    
+}
+section#diferencial > p > a {
+    margin-bottom: 50px;
+}
+section#diferencial > h2 {
+    padding: 10px;
+}
+section#diferencial > h3 {
+    font-size: 2em;
 }
 div#ddiferencial {
     display: flex;
     flex-flow: row wrap;
-    border: 2px dotted black ;
-    
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
-    margin: 10px;
+    
+    
+}
+div#ddiferencial > div.di > p {
+    margin: 5px;
+    padding: 5px;
 }
 div#ddiferencial > div.di {
+    margin: 10px;
+    padding: 20px;
     justify-items: center;
+    font-size: 1.3em;
+    color: #DBA13B;
     
     
 
 }
 div#ddiferencial > div.di > span {
+    color: black;
+    font-size: 40px;
     padding: 10px;
-    background-color: bisque;
+    background-color: #B8A46C;
     border-radius: 50%;
 }
 a#whats {
-    background-image: linear-gradient(to right, rgb(4, 214, 4) ,rgb(33, 138, 1));
-    font-size: 40px;
+    background-image: linear-gradient(to right, #40C351 ,#1F792C);
+    font-size: 20px;
     padding: 10px;
     border-radius: 30px;
     text-decoration: none;
-    margin-top: 40px;
     
     
+    
+    
+}
+section#perguntas > div#per > div.pp > h3 {
+    padding: 10px;
+}
+section#perguntas > div#per > div.pp > p {
+    padding: 10px;
+    text-indent: 15px;
+
+}
+section#perguntas {
+    display: flex;
+    flex-flow: row nowrap;
+    
+    justify-content: flex-start;
+    padding: 20px;
+}
+section#perguntas > div#pt {
+    align-self: center;
+}
+section#perguntas > div#per {
+    
+    padding: 10px;
+    
+    
+}
+section#perguntas > div#per > div.pp {
+    padding: 10px;
+    margin: 20px;
+    background-color: #b8a46c98;
+    border-radius: 10px;
 }
 
 section > div#atendimento {
     display: flex;
     flex-flow: row wrap;
-    border: 3px dotted black;
+    
     
 }
 section#aatendimento {
     text-align: center;
-    background-color: darkcyan;
-    border-radius: 50px;
+    background-image: url(../imagens/fundoatentimentocinza.jpg);
+    background-size: cover;
+    height: 70%;
+    background-attachment: fixed;
     padding: 20px;
-    margin: 10px;
     
+    
+}
+section#aatendimento > h2 {
+    font-weight: lighter;
+    padding: 10px;
+    
+}
+section#aatendimento > h3 {
+    font-weight: bold;
+    font-size: 3em;
+    padding: 10px;
+    color: #DBA13B;
+    text-shadow: 1px 1px 1px black;
 }
 section > div#atendimento > p {
     
+    font-weight: bold;
     width: 300px;
     padding: 15px;
-    background-color: bisque;
+    background-color:#9c8151be;
     margin: 20px;
     border-radius: 10px;
     flex: 1 1 250px ;
@@ -151,7 +269,7 @@ section > div#atendimento > p {
 }
 section > div#atendimento > p > span {
     display: block;
-    font-size: 40px;
+    font-size: 60px;
     margin: 10px;
     
 }
@@ -161,3 +279,95 @@ section > div#atendimento > p > strong {
     
 }
 
+
+section#sobrenos {
+    background-image: linear-gradient(to bottom,#393939, #2D2D2D);
+}
+section#sobrenos > h2 {
+    text-align: center;
+    padding: 15px;
+    font-size: 2.5em;
+    color: #B8A46C;
+}
+
+section#sobrenos > div#ingrid {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    color: white;
+    justify-content: space-around;
+    
+}
+div#ingrid > img {
+    width: 500px;
+    height: 500px;
+}
+section#sobrenos > div#ingrid > div > h2 {
+    padding: 10px;
+}
+section#sobrenos > div#ingrid > div > p {
+    padding: 10px;
+    width: 500px;
+
+}
+
+section#sobrenos > div#laueli {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    color: white;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+div#laueli > img {
+    width: 500px;
+    height: 500px;
+}
+section#sobrenos > div#laueli > div > h2 {
+    padding: 10px;
+}
+section#sobrenos > div#laueli > div > p {
+    padding: 10px;
+    width: 500px;
+
+}
+section#Localizaçao {
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+    
+}
+section#Localizaçao > iframe {
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #B8A46C;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.219);
+    
+}
+section#Localizaçao > div > div#rua > h2 {
+    margin: 5px;
+    font-size: 2em;
+    color: #B8A46C;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.644);
+    
+}
+section#Localizaçao > div > div#rua > p {
+    padding: 2px;
+    font-size: 1.2em;
+    
+}
+section#Localizaçao > div > div#celular > h2 {
+    font-size: 2em;
+    margin: 5px;
+    color: #B8A46C;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.644);
+    
+}
+section#Localizaçao > div > div#celular > p {
+    padding: 2px;
+    font-size: 1.2em;
+    
+}

@@ -18,10 +18,13 @@ body {
     background-color: rgb(255, 255, 255);
     min-width: -100vw;
     min-height: -100vh;
+    background-image: url(../imagens/fundo\ branco.png);
+    
+    background-size: cover;
 }
 
 header {
-    background-color: #002954;
+    background-color: #00295460;
     display: flex;
     flex-flow: row nowrap;
     
@@ -29,18 +32,19 @@ header {
 header > div#logo1 > img {
     width: 95px;
     height: 80px;
-    border: 2px dotted black; 
+    
     align-items: flex-start;
+    margin: 5px;
     padding: 10px;
 
 }
 header > nav {
-    border: 2px dotted black; 
+    
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
-    width: 93vw;
+    width: 91vw;
     
     
 }
@@ -63,6 +67,7 @@ footer {
     flex-flow: row nowrap;
     
     
+    
 }
 footer >div > img {
     border: 2px dotted red ;
@@ -70,7 +75,7 @@ footer >div > img {
 }
 footer > div#loca {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     width: 92vw;
     justify-content: space-around;
     align-self: center;
