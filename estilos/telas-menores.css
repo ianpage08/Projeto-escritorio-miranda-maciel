@@ -2,8 +2,26 @@
 
 
 @media screen and (max-width: 600px) {
-    header > nav {
-        width: 75vw;
+    header {
+        width: 100vw;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    header > div#logo1 > img {
+        width: 95px;
+        height: 80px;
+        
+    }
+    header > nav > a {
+        padding: 10px;
+        margin: 5px;
+        text-decoration: none;
+        color: #DBA13B;
+        font-weight: 500;
+    }
+    section#logo  {
+        background-image: url(../imagens/direito1.jpg);
+        height: 500px;
     }
     section#boasvindas > div > img {
         width: 400px;
@@ -60,5 +78,9 @@
     }
     section#diferencial > h3 {
         font-size: 1.4em;
+    }
+    footer  {
+        flex-flow: row wrap;
+        justify-content: center;
     }
 }

@@ -46,7 +46,6 @@ img#whats {
 }
 section#logo  {
     background-image: url(../imagens/direito1.jpg);
-    
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +59,6 @@ section#logo > img {
     background-color: #00295400;
     width: 400px;
     height: 400px;
-    border-radius: 10px;
     display: block;
 }
 
