@@ -3,8 +3,6 @@
 
 main { 
     min-width: -100vw;
-    
-
 }
 hr#linha {
     border-color: #CCB474;
@@ -15,10 +13,8 @@ hr#linha {
 hr#lin {
     margin-top: 10px;
     margin-bottom: 10px;
-    
     width: 100px;
     border-color: #CCB474;
-    
 }
 img#seta {
     position: fixed;
@@ -33,9 +29,6 @@ img#seta {
     bottom: 85px;
     right: 20px;
     box-shadow: 2px 2px 3px #999;
-    
-
-    
 }
 img#whats {
     position: fixed;
@@ -50,7 +43,6 @@ img#whats {
     line-height: 60px;
     z-index: 9999;
     box-shadow: 2px 2px 3px #999;
-
 }
 section#logo  {
     background-image: url(../imagens/direito1.jpg);
@@ -63,7 +55,6 @@ section#logo  {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    
 }
 section#logo > img {
     background-color: #00295400;
@@ -71,8 +62,6 @@ section#logo > img {
     height: 400px;
     border-radius: 10px;
     display: block;
-    
-
 }
 
 main > section#boasvindas {
@@ -84,30 +73,21 @@ main > section#boasvindas {
     justify-content: space-around;
     padding: 20px;
     flex: 1 1 500px;
-    
-    
 }
 section#boasvindas > div#cboasvindas  {
     width: 40%;
     text-align: left;
     align-self: center;
-    
-
-    
-
 }
 section#boasvindas > div > img {
     width: 500px;
     height: 400px;
     border-radius: 25px 5px 5px 25px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
-    
-
 }
 section#boasvindas > div#cboasvindas{
     display: flex;
     flex-flow: row wrap;
-    
     justify-content: center;
     width: 60%;
 }
@@ -117,29 +97,30 @@ section#boasvindas > div#cboasvindas > h1 {
 section#boasvindas > div#cboasvindas > p {
     padding: 10px;
     width: 500px;
-    
     font-size: 16px;
     margin: 20px;
     font-size: 1.1em;
-    
+}
+a#whatsa:hover {
+    background-color: #516886;
+    transition: 0.5s;
 }
 a#whatsa {
     font-size: 1em;
     background-color: #B8A46C;
     padding: 10px;
+    color: #000000;
     border-radius: 10px;
     text-decoration: none;
 }
 main > section#areasdeatuaçao {
     text-align: center;
     padding: 10px;
-    
-    
-    
 }
 main > section#areasdeatuaçao > h2 {
     font-weight: 300;
-
+    color: #CCB474;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
 }
 main > section#areasdeatuaçao > h3 {
     font-size: 2em;
@@ -154,7 +135,6 @@ main > section#areasdeatuaçao > div.atu {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    
 }
 main > section#areasdeatuaçao > div.atu > a  {
     background-image: url(../imagens/fundo-cinzaa.png);
@@ -177,7 +157,6 @@ main > section#areasdeatuaçao > div.atu > a > div.at {
 section#diferencial {
     background-image: linear-gradient(to bottom,#393939, #2D2D2D);
     margin-left: -10px;
-    
 }
 section#diferencial > p > a {
     margin-bottom: 50px;
@@ -195,8 +174,6 @@ div#ddiferencial {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    
-    
 }
 div#ddiferencial > div.di > p {
     margin: 5px;
@@ -208,9 +185,6 @@ div#ddiferencial > div.di {
     justify-items: center;
     font-size: 1.1em;
     color: #B8A46C;
-    
-    
-
 }
 div#ddiferencial > div.di > span {
     color: black;
@@ -225,10 +199,6 @@ a#whats {
     padding: 10px;
     border-radius: 30px;
     text-decoration: none;
-    
-    
-    
-    
 }
 section#perguntas > div#per > div.pp > h3 {
     padding: 10px;
@@ -236,12 +206,10 @@ section#perguntas > div#per > div.pp > h3 {
 section#perguntas > div#per > div.pp > p {
     padding: 10px;
     text-indent: 15px;
-
 }
 section#perguntas {
     display: flex;
     flex-flow: row nowrap;
-    
     justify-content: flex-start;
     padding: 20px;
 }
@@ -253,10 +221,7 @@ section#perguntas > div#pt {
     align-self: center;
 }
 section#perguntas > div#per {
-    
     padding: 10px;
-    
-    
 }
 section#perguntas > div#per > div.pp {
     padding: 10px;
@@ -264,12 +229,9 @@ section#perguntas > div#per > div.pp {
     background-color: #b8a46c98;
     border-radius: 10px;
 }
-
 section > div#atendimento {
     display: flex;
     flex-flow: row wrap;
-    
-    
 }
 section#aatendimento {
     text-align: center;
@@ -278,14 +240,11 @@ section#aatendimento {
     height: 70%;
     background-attachment: fixed;
     padding: 20px;
-    
-    
 }
 section#aatendimento > h2 {
     font-weight: 300;
     padding: 10px;
     color: #CCB474;
-    
 }
 section#aatendimento > h3 {
     font-weight: bold;
@@ -295,7 +254,6 @@ section#aatendimento > h3 {
     text-shadow: 1px 1px 1px black;
 }
 section > div#atendimento > p {
-    
     font-weight: bold;
     width: 300px;
     padding: 15px;
@@ -303,22 +261,17 @@ section > div#atendimento > p {
     margin: 20px;
     border-radius: 10px;
     flex: 1 1 250px ;
-    
 }
 section > div#atendimento > p > span {
     display: block;
     font-size: 60px;
     color: #000000;
     margin: 10px;
-    
 }
 section > div#atendimento > p > strong {
     text-align: center;
     font-size: 20px;
-    
 }
-
-
 section#sobrenos {
     background-image: linear-gradient(to bottom,#393939, #2D2D2D);
 }
@@ -335,7 +288,6 @@ section#sobrenos > div#ingrid {
     padding: 20px;
     color: white;
     justify-content: space-around;
-    
 }
 div#ingrid > img {
     width: 500px;
@@ -348,10 +300,7 @@ section#sobrenos > div#ingrid > div > h2 {
 section#sobrenos > div#ingrid > div > p {
     padding: 10px;
     width: 500px;
-    
-
 }
-
 section#sobrenos > div#laueli {
     display: flex;
     flex-flow: row wrap-reverse;
@@ -359,7 +308,6 @@ section#sobrenos > div#laueli {
     color: white;
     justify-content: space-around;
     margin-top: 30px;
-    
 }
 div#laueli > img {
     width: 500px;
@@ -372,22 +320,18 @@ section#sobrenos > div#laueli > div > h2 {
 section#sobrenos > div#laueli > div > p {
     padding: 10px;
     width: 500px;
-
 }
 section#Localizaçao {
     padding: 20px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    
-    
 }
 section#Localizaçao > iframe {
     padding: 10px;
     border-radius: 20px;
     border-color: #B8A46C;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.144);
-    
 }
 section#Localizaçao > div > div#rua {
     margin: 50px;
@@ -398,12 +342,10 @@ section#Localizaçao > div > div#rua > h2 {
     font-weight: 500;
     color: #d1ba7b;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.644);
-    
 }
 section#Localizaçao > div > div#rua > p {
     padding: 2px;
     font-size: 1.2em;
-    
 }
 section#Localizaçao > div > div#celular {
     margin: 50px;
@@ -414,10 +356,8 @@ section#Localizaçao > div > div#celular > h2 {
     margin: 5px;
     color: #d1ba7b;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.644);
-    
 }
 section#Localizaçao > div > div#celular > p {
     padding: 2px;
     font-size: 1.2em;
-    
 }
