@@ -15,8 +15,27 @@ hr#linha {
 hr#lin {
     margin-top: 10px;
     margin-bottom: 10px;
+    
     width: 100px;
     border-color: #CCB474;
+    
+}
+img#seta {
+    position: fixed;
+    background-color:#CCB474;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    line-height: 60px;
+    line-height: 60px;
+    z-index: 9999;
+    bottom: 85px;
+    right: 20px;
+    box-shadow: 2px 2px 3px #999;
+    
+
+    
 }
 img#whats {
     position: fixed;
@@ -25,8 +44,8 @@ img#whats {
     background-color: #25d366;
     color: white;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     line-height: 60px;
     z-index: 9999;
@@ -81,7 +100,7 @@ section#boasvindas > div > img {
     width: 500px;
     height: 400px;
     border-radius: 25px 5px 5px 25px;
-    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.63);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
     
 
 }
@@ -91,6 +110,9 @@ section#boasvindas > div#cboasvindas{
     
     justify-content: center;
     width: 60%;
+}
+section#boasvindas > div#cboasvindas > h1 {
+    margin-right: 10px;
 }
 section#boasvindas > div#cboasvindas > p {
     padding: 10px;
@@ -102,10 +124,10 @@ section#boasvindas > div#cboasvindas > p {
     
 }
 a#whatsa {
-    font-size: 1.3em;
-    background-color: #2bc442;
-    padding: 20px;
-    border-radius: 30px;
+    font-size: 1em;
+    background-color: #B8A46C;
+    padding: 10px;
+    border-radius: 10px;
     text-decoration: none;
 }
 main > section#areasdeatuaçao {
@@ -116,11 +138,16 @@ main > section#areasdeatuaçao {
     
 }
 main > section#areasdeatuaçao > h2 {
-    font-weight: lighter;
+    font-weight: 300;
 
 }
 main > section#areasdeatuaçao > h3 {
     font-size: 2em;
+}
+section#areasdeatuaçao > div.atu > a > div.at > span.material-symbols-outlined {
+    font-size: 40px;
+    color: #B8A46C;
+    font-weight: lighter;
 }
 main > section#areasdeatuaçao > div.atu {
     padding: 20px;
@@ -129,20 +156,24 @@ main > section#areasdeatuaçao > div.atu {
     justify-content: space-evenly;
     
 }
-main > section#areasdeatuaçao > div.atu > div.at {
-    background-image: url(../imagens/fundo-areas-de\ -atuação.png);
+main > section#areasdeatuaçao > div.atu > a  {
+    background-image: url(../imagens/fundo-cinzaa.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:30px 0px 30px 0px ;
-    margin: 5px;
+    margin: 10px;
     flex: 0 1 250px;
-    height: 150px;
+    height: 100px;
     align-content: center;
     text-align: center;
     box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.315);
-    
-    
+    text-decoration: none;
+    color: #000000;
 }
+main > section#areasdeatuaçao > div.atu > a > div.at {
+    font-weight: 600;
+}
+
 section#diferencial {
     background-image: linear-gradient(to bottom,#393939, #2D2D2D);
     margin-left: -10px;
@@ -153,6 +184,8 @@ section#diferencial > p > a {
 }
 section#diferencial > h2 {
     padding: 10px;
+    font-weight: 300;
+    color: #d1ba7b;
 }
 section#diferencial > h3 {
     font-size: 2em;
@@ -173,8 +206,8 @@ div#ddiferencial > div.di {
     margin: 10px;
     padding: 20px;
     justify-items: center;
-    font-size: 1.3em;
-    color: #DBA13B;
+    font-size: 1.1em;
+    color: #B8A46C;
     
     
 
@@ -182,7 +215,7 @@ div#ddiferencial > div.di {
 div#ddiferencial > div.di > span {
     color: black;
     font-size: 40px;
-    padding: 10px;
+    padding: 15px;
     background-color: #B8A46C;
     border-radius: 50%;
 }
@@ -211,6 +244,10 @@ section#perguntas {
     
     justify-content: flex-start;
     padding: 20px;
+}
+section#perguntas > div#pt > p#pp {
+    color: #B8A46C;
+    font-weight: 300;
 }
 section#perguntas > div#pt {
     align-self: center;
@@ -245,15 +282,16 @@ section#aatendimento {
     
 }
 section#aatendimento > h2 {
-    font-weight: lighter;
+    font-weight: 300;
     padding: 10px;
+    color: #CCB474;
     
 }
 section#aatendimento > h3 {
     font-weight: bold;
     font-size: 3em;
     padding: 10px;
-    color: #DBA13B;
+    color: #000000;
     text-shadow: 1px 1px 1px black;
 }
 section > div#atendimento > p {
@@ -270,6 +308,7 @@ section > div#atendimento > p {
 section > div#atendimento > p > span {
     display: block;
     font-size: 60px;
+    color: #000000;
     margin: 10px;
     
 }
@@ -301,6 +340,7 @@ section#sobrenos > div#ingrid {
 div#ingrid > img {
     width: 500px;
     height: 500px;
+    border-radius: 150px 40px 40px 150px;
 }
 section#sobrenos > div#ingrid > div > h2 {
     padding: 10px;
@@ -308,12 +348,13 @@ section#sobrenos > div#ingrid > div > h2 {
 section#sobrenos > div#ingrid > div > p {
     padding: 10px;
     width: 500px;
+    
 
 }
 
 section#sobrenos > div#laueli {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap-reverse;
     padding: 20px;
     color: white;
     justify-content: space-around;
@@ -323,6 +364,7 @@ section#sobrenos > div#laueli {
 div#laueli > img {
     width: 500px;
     height: 500px;
+    border-radius: 40px 150px 150px 40px;
 }
 section#sobrenos > div#laueli > div > h2 {
     padding: 10px;
@@ -344,13 +386,17 @@ section#Localizaçao > iframe {
     padding: 10px;
     border-radius: 20px;
     border-color: #B8A46C;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.219);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.144);
     
+}
+section#Localizaçao > div > div#rua {
+    margin: 50px;
 }
 section#Localizaçao > div > div#rua > h2 {
     margin: 5px;
     font-size: 2em;
-    color: #B8A46C;
+    font-weight: 500;
+    color: #d1ba7b;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.644);
     
 }
@@ -359,10 +405,14 @@ section#Localizaçao > div > div#rua > p {
     font-size: 1.2em;
     
 }
+section#Localizaçao > div > div#celular {
+    margin: 50px;
+}
 section#Localizaçao > div > div#celular > h2 {
     font-size: 2em;
+    font-weight: 500;
     margin: 5px;
-    color: #B8A46C;
+    color: #d1ba7b;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.644);
     
 }
