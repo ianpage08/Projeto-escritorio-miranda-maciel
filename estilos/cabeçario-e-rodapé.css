@@ -26,7 +26,6 @@ header {
     background-color: #00295460;
     display: flex;
     flex-flow: row nowrap;
-    width: 100vw;
 }
 header > div#logo1 > img {
     width: 95px;
@@ -42,12 +41,10 @@ header > nav {
     justify-content: space-around;
     width: 91vw;
 }
-
 header > nav > a {
     padding: 10px;
     text-decoration: none;
     color: #DBA13B;
-    
 }
 header > nav > a:hover {
     background-color:#516886 ;
