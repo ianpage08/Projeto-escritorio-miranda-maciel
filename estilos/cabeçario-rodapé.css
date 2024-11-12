@@ -18,11 +18,11 @@ body {
     background-color: rgb(255, 255, 255);
     min-width: -100vw;
     min-height: -100vh;
-    background-image: url(../imagens/fundo\ branco.png);
-    background-size: cover;
+    
 }
 
 header {
+    width: 100vw;
     background-color: #00295460;
     display: flex;
     flex-flow: row nowrap;

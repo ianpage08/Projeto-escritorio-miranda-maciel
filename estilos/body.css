@@ -45,7 +45,7 @@ img#whats {
     box-shadow: 2px 2px 3px #999;
 }
 section#logo  {
-    background-image: url(../imagens/direito1.jpg);
+    background-image: url(../imagens/direito1.png);
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,11 +72,7 @@ main > section#boasvindas {
     padding: 20px;
     flex: 1 1 500px;
 }
-section#boasvindas > div#cboasvindas  {
-    width: 40%;
-    text-align: left;
-    align-self: center;
-}
+
 section#boasvindas > div > img {
     width: 500px;
     height: 400px;
@@ -84,13 +80,12 @@ section#boasvindas > div > img {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
 }
 section#boasvindas > div#cboasvindas{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 60%;
+    text-align: left;
+    align-self: center;
+    align-items: flex-end;
 }
 section#boasvindas > div#cboasvindas > h1 {
-    margin-right: 10px;
+    text-indent: 30px;
 }
 section#boasvindas > div#cboasvindas > p {
     padding: 10px;
@@ -232,7 +227,7 @@ section > div#atendimento {
 }
 section#aatendimento {
     text-align: center;
-    background-image: url(../imagens/fundoatentimentocinza.jpg);
+    background-image: url(../imagens/fundoatentimentocinza.png);
     background-size: cover;
     height: 70%;
     background-attachment: fixed;

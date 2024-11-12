@@ -2,11 +2,9 @@
 
 
 @media screen and ( max-width: 600px) {
-    body {
-        min-width: -100vw;
-    }
+    
     header {
-        width: 100%;
+        width: 100vw;
         justify-content: center;
         flex-flow: row wrap;
     }
@@ -27,15 +25,24 @@
         font-size: 1.4em;
     }
     section#boasvindas > div#cboasvindas > p {
-        width: 300px;
+        width: 350px;
         font-size: 1;
     }
     section#logo > img {
         margin-bottom: 80px;
     }
     section#logo  {
-        background-image: url(../imagens/direito1.jpg);
-        height: 520px;
+        background-image: url(../imagens/direito1celular.png);
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: local;
+        
+        
+    }
+    section#aatendimento {
+        background-attachment:scroll;
+        background-position: center;
     }
     section#boasvindas > div > img {
         width: 350px;
